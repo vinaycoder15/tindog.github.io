@@ -1,0 +1,178 @@
+/* TAG SELECTORS */
+h1{
+  margin-top: 10%;
+  margin-bottom: 4%;
+  font-weight: bold;
+  color: #F96666;
+
+
+}
+h2{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+p{
+  padding: 3%;
+  color: grey;
+}
+
+h3{
+  font-weight: bold;
+}
+body{
+  font-family: "Montserrat";
+}
+
+
+
+
+
+/* CLASS SELECTORS */
+.navbar-brand{
+  font-size: 2.5rem;
+  margin-left: 2.5%;
+  font-weight: bold;
+  font-family: "Ubuntu-Bold",;
+  color: #AF0171;
+
+}
+
+.title{
+  margin-top: 8%;
+  margin-left: 5%;
+}
+
+.navbar{
+  padding: 1.5%;
+}
+
+.btn{
+  margin: 1%;
+}
+
+.iphone-img{
+  width: 60%;
+  transform: rotate(20deg);
+
+
+
+}
+.features-box{
+  margin: 15% 7%;
+}
+.features-item{
+  text-align: center;
+  padding: 4%;
+}
+.icon{
+  margin-bottom: 3%;
+  color: #FF577F;
+}
+.icon:hover{
+  color: #B73E3E;
+}
+.tnw{
+  margin-bottom: 2%;
+}
+.press-logo{
+  width: 15%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* ID SELECTORS */
+#title{
+  background-color: #FFD372;
+}
+.nav-item{
+  color: #DFD3C3;
+}
+#press{
+  background-color: #FA7070;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  margin: 20px 20px 50px;
+}
+
+/* TESTIMONIALS SECTION */
+#testimonials{
+
+  text-align: center;
+  background-color: #FA7070;
+  color: white;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+.testimonial-text{
+  padding-top:5%;
+  line-height: 3.5rem;
+
+}
+
+/* PRICING SECTION */
+#pricing{
+  padding: 100px;
+  text-align: center;
+
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+#features{
+  padding:7% 15%;
+
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+/* ENDING TEXT */
+.ending-text{
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Montserrat-Black"
+  font-weight: bold;
+  line-height: 2rem;
+  background-color:#FFD372;
+  padding: 9% 10%;
+
+}
+#footer{
+  margin-top: 5%;
+  text-align: center;
+}
+.icon-footer{
+  margin: 0 0.5% 0;
+
+}
+.copyright{
+  margin-top: 0;
+  padding: 2%;
+  font-size: 0.8rem;
+}
+.end-btn{
+  margin-top: 4%;
+}
+
+@media(max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .iphone-img{
+    position: static;
+    transform: rotate(0);
+    margin-top: 5%;
+  }
+}
